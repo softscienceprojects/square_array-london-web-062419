@@ -4,7 +4,7 @@ def square_array(array)
    
   # Step 3 + 4
   while apples_taken_out < apples_in_basket
-      print 
+      print apples_taken_out ** apples_taken_out
       apples_taken_out += 1
   end
 end
