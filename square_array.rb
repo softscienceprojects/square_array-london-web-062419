@@ -1,6 +1,6 @@
 def square_array(array)
-    b = array.each do |x|
-      x*2
-    end
-    puts b
+    current_iterator = 0
+
+    while current_iterator < array.size
+      puts "Currently at #{current_iterator}"
 end
