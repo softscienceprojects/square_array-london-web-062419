@@ -1,5 +1,3 @@
 def square_array(array)
-  array.each do |apple|
-  print apple ** 2
- end
+  array.each { |num| num ** 2}
 end
