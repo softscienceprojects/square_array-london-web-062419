@@ -1,5 +1,6 @@
 def square_array(array)
    array.each do |apple|
-   print apple**apple
+  apples_taken_out = apple*apple
+  print apple
  end
 end
