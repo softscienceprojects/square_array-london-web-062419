@@ -5,4 +5,5 @@ def square_array(array)
       puts "Currently at #{current_iterator}"
       current_iterator += 1
     end
+    current_iterator
 end
