@@ -1,9 +1,8 @@
 def square_array(array)
-    current_iterator = 0
+    myArr = []
 
-    while current_iterator < array.size
-      puts "Currently at #{current_iterator}"
-      current_iterator += 1
+    array.each do |x|
+      y = x*x
+      myArr.push(y)
     end
-    current_iterator
 end
