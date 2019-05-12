@@ -5,4 +5,5 @@ def square_array(array)
       y = x*x
       myArr.push(y)
     end
+    myArr
 end
